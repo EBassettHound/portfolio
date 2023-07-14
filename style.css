@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #ededed;
+}
+/* sets the margin for the main part of the webpage */
+div {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+/* creates style for the header and footer */
+header, footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  background: lightsteelblue;
+  padding: 20px 8px;
+  margin: 40px 0px;
+}
+
+h2 {
+  color: lightsteelblue;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+}
+p,ul,ol {
+  text-align:left;
+}
+hr {
+  height: 2px;
+  border-width: 3px;
+  background-color: lightsteelblue;
+  border-color: darkblue;
+}
+/* custom class for inline styling */
+.centered-words {
+  text-align: center;
+}
+
+/* pseudo class for links */
+a {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
